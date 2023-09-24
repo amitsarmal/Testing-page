@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg'); /* Replace 'your-background-image.jpg' with the actual image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.back{
+    /* text-decoration: none; */
+    color: #ccc;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(16, 33, 63, 0.4); /* Add a semi-transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+}
+h2 {
+    color: #333;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+}
+input[type="submit"] {
+    background-color: #13375e;
+    color: #fff;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #112131;
+}
